@@ -32,6 +32,7 @@ Tags:
 - Mỗi loại mô hình dữ liệu đặc trưng cho một cách tiếp cận dữ liệu khác nhau của những nhà phân tích thiết kế CSDL
 #### Network data models - Mô hình mạng
 - Là mô hình được biểu diễn bởi 1 đồ thị có hướng
+	
 	![](../img/networkmodel.png)
 - Mỗi đỉnh là 1 loại mẫu tin (Record Type)
 - Mỗi cung có hướng thể hiện mối liên hệ (Set Type)
@@ -43,6 +44,7 @@ Tags:
 - Mô hình là 1 cây, trong đó mỗi nút của cây biểu diễn 1 loại mẫu tin
 - Giữa 2 loại mẫu tin chỉ tồn tại 1 mối quan hệ duy nhất. Quan hệ giữa nút cấp trên và nút con là `1-n` họăc `1-1`
 - VD: Xây dựng hệ thống quản lý sv của các trường ĐH tại VN
+	
 	![](../img/vdmohinhphancap.png)
 	- có 4 loại bản ghi: trường, khoa, ngành, sv
 #### Entity relationship model - Mô hình thực thể liên kết
@@ -50,12 +52,14 @@ Tags:
 	- Thực thể - Entity
 	- Thuộc tính của thực thể - Entity Attributes
 	- Mối quan hệ giữa các thực thể - Entity Relationship
+	
 	![[](../img/entityrelationship.png)
 #### Relational data model - Mô hình quan hệ
 - Do E.F.Codd đề xuất năm 1970
 - Nền tảng cơ bản: khái niệm lý thuyết tập hợp trên các quan hệ, tức tập của các bộ giá trị (value tuples). Những khái niệm sẽ được sử dụng: attribute (thuộc tính), relation (quan hệ), relation schema (lược đồ quan hệ), tuple (bộ), key (khóa)
 - Là mô hình được nghiên cứu nhiều nhất -> có cơ sở lý thuyết vững chắc nhất
 - Mô hình này + mô hình dữ liệu thực thể kết hợp được sử dụng rộng rãi trong việc ptich và tke CSDL
+
 ![](../img/relationdatamodel.png)
 #### Object oriented data model - Mô hình hướng đối tượng
 - Ra đời cuối những năm 80 - đầu những năm 90

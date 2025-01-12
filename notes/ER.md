@@ -1,6 +1,7 @@
 Created: 202412272300
 Tags: 
 
+# Entity Relationship
 ## Giới thiệu
 - Mô hình ER - Entity Relationship Model - Mô hình thực thể liên kết 
 - Là một công cụ thiết kế
@@ -20,6 +21,7 @@ phần cứng
 	- Thực thể mạnh
 	- Thực thể yếu: X là thực thể yếu nếu sự tồn tại của X phụ thuộc vào sự tồn tại của thực thể Y, ký hiệu bằng hình chữ nhật kép
 - Dùng hình chữ nhật or hcn bầu để biểu diễn thực thể
+	![](../img/bieu-dien-thuc-the.png)
 ## Attribute - Thuộc tính
 - Là tính chất để mô tả thực thể
 - Mỗi thuộc tính của một thực thể xác định có giá trị cụ thể và là dữ liệu cần lưu trữ
@@ -43,10 +45,39 @@ phần cứng
 	- Trong mô hình ER tên của mỗi thuộc tính dùng làm khóa chính được gạch chân
 	VD: ![](../img/vdthuoctinhkhoa.png)
 
-## Key - Khóa
 ## Relationship - Liên kết
 - Là sự kết hợp của 2 hay nhiều thực thể phân biệt theo một ý nghĩa nào đó
+- Có nhiều cách biểu diễn mối liên kết
+	- Ký pháp Chen (1976)
+		
+		![](../img/ky-phap-chen.png)
+	- Ký pháp CASE\*METHOD
+		
+		![[case-method.png]]
 
+- Bậc liên kết là số kiểu thực thể tham gia vào liên kết
+	- `Binary Relationship` - Kiểu thực thể liên kết nhị phân: chỉ có 2 kiểu thực thể liên kết nhau
+		
+		![](../img/binary-relationship.png)
+	- `Ternary Relationship` - Kiểu liên kết tam phân: có 3 kiểu thực thể liên kết với nhau
+		
+		![](../img/ternary-relationship.png)
+	- `Unary` - Kiểu liên kết đơn phân hay `Recursive` - liên kết đệ quy: thực thể liên kết với chính nó
+		
+		![](../img/unary-or-recursive.png)
+	- Có thể có nhiều kiểu liên kết giữa 2 thực thể
+
+- BIỂU DIỄN CÁC KIỂU LIÊN KẾT
+	
+	![](../img/bieu-dien-kieu-lien-ket.png)
+
+- CÁC KIỂU LIÊN KẾT
+	- `1-1
+		![](../img/1-1.png)
+	- `1-n`
+		![](../img/1-n.png)
+	- `n-n`
+		![](../img/n-n.png)
 ## Xây dựng mô hình ER
 - Xác định các thực thể
 - Loại bỏ các thực thể trùng lặp
@@ -56,6 +87,7 @@ phần cứng
 - Mô tả các kiểu liên kết
 - Loại bỏ những liên kết dư thừa (liên kết vòng)
 
+## BÀI TẬP
 
 -----
 ## References
